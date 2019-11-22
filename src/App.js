@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className="App">
-      <canvas ref={canvasRef} width="400" height="400"></canvas>
+      <canvas ref={canvasRef} height={50} />
     </div>
   );
 }
